@@ -2,13 +2,13 @@
 variable "certificate_map_name" {
   description = "Name of the certificate map"
   type        = string
-  default     = "certificate-map-yahoo"
+  default     = "certificate-map"
 }
 
 variable "certificate_map_entry_name" {
   description = "Name of the certificate map entry"
   type        = string
-  default     = "certificate-map-entry-yahoo"
+  default     = "certificate-map-entry"
 }
 
 variable "hostname" {
@@ -21,7 +21,7 @@ variable "hostname" {
 variable "certificate_name" {
   description = "Name of the certificate"
   type        = string
-  default     = "certificate-yahoo"
+  default     = "certificate"
 }
 
 variable "server_cert_file" {
@@ -52,13 +52,13 @@ variable "trust_anchor_cert_file" {
 variable "trust_config_name" {
   description = "Name of the trust configuration"
   type        = string
-  default     = "my-trust-config-poc-yahoo"
+  default     = "my-trust-config-poc"
 }
 
 variable "server_tls_policy_name" {
   description = "Name of the server TLS policy"
   type        = string
-  default     = "my-server-tls-policy-poc-yahoo"
+  default     = "my-server-tls-policy-poc"
 }
 
 # Location
